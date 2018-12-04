@@ -16,3 +16,10 @@ Usamos para definir a navegação do usuário. Linkar com outro lugar do interno
 ```
 
 
+# CSS
+
+É uma linguagem de estilo com as seguintes responsabilidades:
+
+- Visual;
+- 
+
