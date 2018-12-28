@@ -1,0 +1,45 @@
+.definitionlist {
+  margin-left: 758px;
+}
+
+.description {
+  font-family: Roboto, Helvetica, sans-serif;
+  color: white;
+}
+
+.description.-title {
+  font-size: 25px;
+  margin-top: 238px;
+}
+
+.description.-nota {
+  font-size: 20px;
+  margin-top: 99px;
+  margin-left: 10px;
+}
+
+.description.-frete {
+  font-size: 20px;
+  margin-top: 28px;
+}
+
+.description.-preco {
+  font-size: 20px;
+  margin-top: 26px;
+}
+
+.description.-info {
+  font-size: 18px;
+  margin-top: 73px;
+}
+
+.description.-moreinfo {
+  font-size: 20px;
+  margin-top: 60px;
+  margin-bottom: 98px;
+}
+
+.a {
+  text-decoration: none;
+  color: rgb(233, 108, 108);
+}
