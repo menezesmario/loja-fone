@@ -1,5 +1,5 @@
 .description-product {
-  margin-left: 758px;
+  /* margin-left: 758px; */
   font-family: Roboto, Helvetica, sans-serif;
   color: white;
 }
@@ -32,10 +32,6 @@
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 30px;
-}
-
-.description-product > .text.-more {
-  margin-bottom: 98px;
 }
 
 .description-product .action {
