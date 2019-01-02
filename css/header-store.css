@@ -12,6 +12,20 @@
   text-transform: uppercase;
 }
 
+.header-store .search {
+  width: 93px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-right: 360px;
+  float: left;
+  vertical-align: center;
+}
+
+.header-store .hrsearch {
+  width: 358px;
+  border-color: white;
+}
+
 .header-store .navigation {
   font-size: 21px;
   font-family: "segoe ui", "roboto", sans-serif;
