@@ -14,8 +14,34 @@
   margin-right: 28px;
 }
 
+.button-store:hover {
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 20px;
+  background-color: #fff;
+  color: #252c41;
+  font-family: Arial, "Roboto", sans-serif;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  text-decoration: none;
+  border: none;
+  margin-right: 28px;
+}
+
 .button-store.-second {
   background-color: transparent;
+  border: 2px solid white;
+  width: 218px;
+  line-height: 56px;
+  float: left;
+  cursor: pointer;
+}
+
+.button-store.-second:hover {
+  background-color: white;
+  color: #e24647;
   border: 2px solid white;
   width: 218px;
   line-height: 56px;
