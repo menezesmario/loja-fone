@@ -19,11 +19,20 @@
   cursor: pointer;
 }
 
+.item.-star:hover {
+  transform: scale(1.1);
+}
+
 .description-product > .item.-heart {
   position: absolute;
   transform: translateX(-100%);
   top: 5px;
   left: -47px;
+  cursor: pointer;
+}
+
+.item.-heart:hover {
+  transform: scale(1.1);
 }
 
 .description-product > .item.-star + .item {
