@@ -10,3 +10,9 @@
   bottom: 0;
   transform: translateY(calc(100% + 98px));
 }
+
+.wrap-product > .favorite {
+  width: 33px;
+  position: absolute;
+  transform: translateX(calc(-47px - 33px));
+}
