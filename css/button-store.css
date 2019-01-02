@@ -20,6 +20,7 @@
   width: 218px;
   line-height: 56px;
   float: left;
+  cursor: pointer;
 }
 
 .button-store > button,
@@ -32,6 +33,5 @@
 }
 
 .buttons {
-  margin-left: 763px;
-  margin-top: 100px;
+  position: absolute;
 }

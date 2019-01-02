@@ -5,25 +5,24 @@
   padding-left: 60px;
 }
 
+.header-store [type="search"] {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-right: 65px;
+  padding: 8px;
+  width: 358px;
+}
+
 .header-store .title {
   font-family: Arial, "Roboto", sans-serif;
   font-size: 40px;
   float: left;
   text-transform: uppercase;
-}
-
-.header-store .search {
-  width: 93px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  margin-right: 360px;
-  float: left;
-  vertical-align: center;
-}
-
-.header-store .hrsearch {
-  width: 358px;
-  border-color: white;
+  cursor: pointer;
 }
 
 .header-store .navigation {
