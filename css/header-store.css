@@ -15,6 +15,7 @@
   margin-right: 65px;
   padding: 8px;
   width: 358px;
+  vertical-align: bottom;
 }
 
 .header-store .title {
@@ -32,15 +33,33 @@
 }
 
 .header-store .action {
+  display: inline-block;
   text-decoration: none;
   color: inherit;
   margin-right: 60px;
-}
-
-.header-store .action:hover {
-  text-decoration: underline;
+  padding-bottom: 8px;
+  position: relative;
+  
 }
 
 .header-store .action.-last {
   margin-right: 0;
+}
+
+.header-store .action:after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background: #FFFFFF;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transition: transform 200ms linear;
+  transform-origin: center left;
+}
+  
+.header-store .action:hover:after {
+transform: scale(1);
+
 }

@@ -15,13 +15,25 @@
 }
 
 .description-product > .item.-star {
+  position: absolute;
   margin-bottom: 10px;
   cursor: pointer;
 }
 
-.item.-star:hover {
-  transform: scale(1.1);
+.description-product .icon {
+    transition: transform 100ms linear;
 }
+
+.description-product .icon:hover {
+  transform: scale(1.2);
+
+}
+
+.description-product > .item.-star + .item {
+  padding-top: 40px;
+  margin-left: 7px;
+}
+
 
 .description-product > .item.-heart {
   position: absolute;
@@ -31,13 +43,9 @@
   cursor: pointer;
 }
 
-.item.-heart:hover {
+/*.item.-heart:hover {
   transform: scale(1.1);
-}
-
-.description-product > .item.-star + .item {
-  margin-left: 7px;
-}
+}*/
 
 .description-product > .item.-info {
   width: 180px;
