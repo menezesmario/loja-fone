@@ -13,7 +13,7 @@
   border: none;
   margin-right: 28px;
   cursor: pointer;
-  transition: background-color 200s ease, color 200s ease;
+   transition: all 400ms ease;
 }
 
 .button-store:hover {
