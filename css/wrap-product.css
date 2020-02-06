@@ -16,3 +16,51 @@
   position: absolute;
   transform: translateX(calc(-47px - 33px));
 }
+
+@media (max-width: 1325px) {
+  .wrap-product {
+    width: 300px;
+    margin-right: 30px;
+  }
+
+  .wrap-product > .buttons {
+    transform: translateY(calc(100% + 50px));
+ 
+  }
+}
+
+@media (max-width: 1100px) {
+  .wrap-product {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 800px;
+  }
+}
+
+@media (max-width: 800px) {
+  .wrap-product {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    max-width: 500px;
+    min-width: auto;
+  }
+}
+
+@media (max-width: 550px) {
+  .wrap-product {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 375px) {
+  .wrap-product{
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 260px;
+  }
+}

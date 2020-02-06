@@ -5,7 +5,7 @@
   background-color: #252c41;
   color: #fff;
   font-family: Arial, "Roboto", sans-serif;
-  width: 200px;
+  width: 240px;
   height: 60px;
   text-align: center;
   line-height: 60px;
@@ -28,7 +28,7 @@
 .button-store.-second {
   background-color: transparent;
   border: 2px solid white;
-  width: 218px;
+  width: 240px;
   line-height: 56px;
   float: left;
   transition: all 400ms ease;
@@ -51,3 +51,42 @@
 .buttons {
   position: absolute;
 }
+
+@media (max-width: 1325px) {
+  .button-store.-second {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .button-store {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .button-store {
+   width: 700px;
+  }
+  .button-store.-second{
+    width: 700px;
+   }
+}
+
+@media (max-width: 555px) {
+  .button-store {
+   width: 480px;
+  }
+  .button-store.-second{
+    width: 480px;
+   }
+}
+
+@media (max-width: 375px) {
+  .button-store {
+   width: 260px;
+  }
+  .button-store.-second{
+    width: 260px;
+   }
+}
+
