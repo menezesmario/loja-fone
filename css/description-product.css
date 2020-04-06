@@ -15,9 +15,16 @@
 }
 
 .description-product > .item.-star {
-  position: absolute;
-  margin-bottom: 10px;
-  cursor: pointer;
+  float: left;
+  margin-right: 15px;
+ 
+  /*position: absolute;
+   margin-bottom: 10px;
+  cursor: pointer;*/
+}
+
+.description-product > .item.-number {
+  padding-top: 4px;
 }
 
 .description-product .icon {
@@ -30,7 +37,7 @@
 }
 
 .description-product > .item.-star + .item {
-  padding-top: 40px;
+  /* padding-top: 40px; */
   margin-left: 7px;
 }
 
